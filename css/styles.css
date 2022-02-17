@@ -20,6 +20,10 @@ body {
 }
 
 header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1;
   padding: 1rem;
   display: flex;
   justify-content: space-between;
@@ -55,6 +59,7 @@ header {
 }
 
 main {
+  margin-top: 7rem;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
